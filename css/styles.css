@@ -1,0 +1,154 @@
+/* El archivo CSS está diseñado para seguir el orden de los elementos html de arriba a abajo. */
+
+/* Fuentes:
+font-family: 'Akaya Telivigala', cursive; ---> Para titulo
+font-family: 'Rowdies', cursive; ---> Para etiquetas
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Staatliches', cursive;
+*/
+
+/* Colores:
+#DB6B97 --> Letra titulo
+#6A5495 --> Sombra texto titulo
+#F2FFE9 --> Fondo
+#A6CF98 --> Borde botón
+#557C55 --> Sombra botón
+#CEC7C0 --> Sombra Textos
+#FF9F45 --> Textos
+*/
+
+/* Elementos generales y media querys.*/
+body {
+  background-color: #F2FFE9;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 7vw;
+  font-family: 'Akaya Telivigala', cursive;
+  color: #DB6B97;
+  text-shadow: 0.2vw 0.2vw #6A5495;
+}
+
+/* Botones */
+
+.btnColumna {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  height: 16vw;
+  width: 16vw;
+  border-radius: 10%;
+  border-color: #A6CF98;
+  border-style: solid;
+  box-shadow: 0.7vw 0.7vw #557C55;
+  font-size: 3vw;
+  color: #6A5495;
+  text-shadow: 0.3vw 0.3vw 0.2vw #CEC7C0;
+  font-family: 'Rowdies', cursive;
+  padding: 10vw 0 0 0;
+  margin: 2.5vw 4vw;
+}
+
+.btn0 {
+  background-image: url("../img/dog.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.btn1 {
+  background-image: url("../img/cat.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.btn2 {
+  background-image: url("../img/bee.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.btn3 {
+  background-image: url("../img/chicken.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.btn4 {
+  background-image: url("../img/cow.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.btn5 {
+  background-image: url("../img/horse.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.btn6 {
+  background-image: url("../img/lamb.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.btn7 {
+  background-image: url("../img/lion.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.btn8 {
+  background-image: url("../img/monkey.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.btn9 {
+  background-image: url("../img/snake.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.btn10 {
+  background-image: url("../img/batLogo.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.btn11 {
+  background-image: url("../img/spiderman.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+/* Footer */
+.myName {
+  font-size: 2vw;
+  font-family: 'Rajdhani', sans-serif;
+  margin: 1vw auto;
+}
+
+.cmcLink {
+  text-decoration: none;
+  font-size: 2vw;
+  font-family: 'Staatliches', cursive;
+  color: #FF6464;
+}
