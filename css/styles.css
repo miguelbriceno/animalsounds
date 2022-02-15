@@ -16,6 +16,12 @@ h1 {
   text-shadow: 0.2vw 0.2vw #6A5495;
 }
 
+/* Titulo */
+.mainTitle {
+  margin-top: 10vw;
+  margin-bottom: 5vw;
+}
+
 /* Botones */
 
 .btnColumna {
@@ -126,7 +132,7 @@ button {
 .myName {
   font-size: 2vw;
   font-family: 'Rajdhani', sans-serif;
-  margin: 1vw auto;
+  margin: 5vw auto 1vw auto;
 }
 
 .cmcLink {
