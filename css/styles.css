@@ -1,22 +1,5 @@
 /* El archivo CSS está diseñado para seguir el orden de los elementos html de arriba a abajo. */
 
-/* Fuentes:
-font-family: 'Akaya Telivigala', cursive; ---> Para titulo
-font-family: 'Rowdies', cursive; ---> Para etiquetas
-font-family: 'Rajdhani', sans-serif;
-font-family: 'Staatliches', cursive;
-*/
-
-/* Colores:
-#DB6B97 --> Letra titulo
-#6A5495 --> Sombra texto titulo
-#F2FFE9 --> Fondo
-#A6CF98 --> Borde botón
-#557C55 --> Sombra botón
-#CEC7C0 --> Sombra Textos
-#FF9F45 --> Textos
-*/
-
 /* Elementos generales y media querys.*/
 body {
   background-color: #F2FFE9;
@@ -150,5 +133,14 @@ button {
   text-decoration: none;
   font-size: 2vw;
   font-family: 'Staatliches', cursive;
-  color: #FF6464;
+  color: #3DBBDD;
+}
+
+
+/* Animaciones */
+.btnPresionado {
+  box-shadow: 0.7vw 0.7vw #FF9F45;
+  position: relative;
+  top: 1vw;
+  left: 1vw;
 }
